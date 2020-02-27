@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This repository is based on MATLAB, so you should have MATLAB installed before running this repo.
+Plese download the data [here](https://drive.google.com/open?id=1dIeLDzlFw1VsbEY6s6QgxyKUs6b8uKvf)
 
 ## Code organization
 
