@@ -18,8 +18,8 @@ Plese download the data [here](https://drive.google.com/open?id=1dIeLDzlFw1VsbEY
     ├── report                # Folder contains my report analysis
     ├── results               # Folder contains final results images
     ├── src                   # PyThon scripts
-    │   ├── main.py		      # Main particle filter SLAM file
-    │   ├── tools.py		  # Helper for partical filter SLAM
+    │   ├── main.py           # Main particle filter SLAM file
+    │   ├── tools.py          # Helper for partical filter SLAM
     │   ├── load_data.py	  # Load lidar / joint / cam data
     │   ├── map_utils.py	  # Utility sets of the map function
     │   └── motion_utils.py	  # Utility sets of the motion function
