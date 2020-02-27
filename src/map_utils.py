@@ -5,7 +5,7 @@ from scipy import io
 from tools import  softmax, polar2cart, transform, filtering
 from mpl_toolkits.mplot3d import Axes3D
 
-def mapInit(xmin=-25, xmax=25, ymin=-25, ymax=25, res=0.05):
+def mapInit(xmin=-30, xmax=30, ymin=-30, ymax=30, res=0.05):
     '''
         Initialize grid map
 
