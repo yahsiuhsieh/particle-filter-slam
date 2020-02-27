@@ -50,7 +50,7 @@ def motion_model_predict(particles, motion, var_scale):
         Input:
             particles    - list of particle states
             motion       - relative motion in (x, y, theta)
-            var_scale    - scaling factor for gaussian noise
+            var_scale    - scaling factor of Gaussian noise
         Outputs:
             particles    - list of predicted particle states
     '''
