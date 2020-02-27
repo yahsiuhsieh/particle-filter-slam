@@ -18,10 +18,10 @@ This repository is based on MATLAB, so you should have MATLAB installed before r
     ├── report                # Folder contains my report analysis
     ├── results               # Folder contains final results images
     ├── src                   # PyThon scripts
-    │   ├── main.py		        # Main particle filter SLAM file
-    │   ├── tools.py		      # Helper for partical filter SLAM
-    │   ├── load_data.py	    # Load lidar / joint / cam data
-    │   ├── map_utils.py	    # Utility sets of the map function
+    │   ├── main.py		      # Main particle filter SLAM file
+    │   ├── tools.py		  # Helper for partical filter SLAM
+    │   ├── load_data.py	  # Load lidar / joint / cam data
+    │   ├── map_utils.py	  # Utility sets of the map function
     │   └── motion_utils.py	  # Utility sets of the motion function
     └── README.md
 
@@ -37,8 +37,7 @@ This repository is based on MATLAB, so you should have MATLAB installed before r
 * See the [report](https://github.com/arthur960304/particle-filter-slam/blob/master/report/report.pdf) for detailed implementations.
 
 ## Results
-
-* Here is the one of the result ![Data 4](https://github.com/arthur960304/particle-filter-slam/blob/master/results/data4.png)
+![Data 4](https://github.com/arthur960304/particle-filter-slam/blob/master/results/data4.png)
 
 
 ## Authors
