@@ -17,7 +17,7 @@ Plese download the data [here](https://drive.google.com/open?id=1dIeLDzlFw1VsbEY
     ├── docs                  # Folder contains robot and data specs
     ├── report                # Folder contains my report analysis
     ├── results               # Folder contains final results images
-    ├── src                   # PyThon scripts
+    ├── src                   # Python scripts
     │   ├── main.py           # Main particle filter SLAM file
     │   ├── tools.py          # Helper for partical filter SLAM
     │   ├── load_data.py	  # Load lidar / joint / cam data
