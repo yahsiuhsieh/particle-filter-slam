@@ -18,7 +18,7 @@ def main():
     lidar_data = joint_align(lidar_data, joint_data)
     
     # particles init
-    P = particleInit(num=3)
+    P = particleInit(num=128)
 
     # grid map init
     MAP = mapInit()
