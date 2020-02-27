@@ -23,7 +23,6 @@ def particleInit(num=128):
     Particles['states'] = np.zeros((Particles['number'], 3)) + np.random.randn(Particles['number'],3) * np.array([0.1, 0.1, 0.1*np.pi/180])
     return Particles
 
-
 def t_align(lidar_time, joint_time):
     '''
         Time stamp alignment
