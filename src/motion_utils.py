@@ -43,18 +43,18 @@ def get_motion(robot_pose, lidar_data, idx, step_size):
         
     return delta_pose
 
-def motion_model_predict(particles, motion, scale):
+def motion_model_predict(particles, motion, var_scale):
     '''
         motion model prediction
         
         Input:
             particles    - list of particle states
             motion       - relative motion in (x, y, theta)
-            motion_noise - Gaussian noise
+            var_scale    - scaling factor for gaussian noise
         Outputs:
             particles    - list of predicted particle states
     '''
-    motion_noise = np.random.randn(particles.shape[0],3) * scale
+    motion_noise = np.random.randn(particles.shape[0],3) * var_scale
     particles = particles + motion + motion_noise
     particles[:,2] = particles[:,2] % (2*np.pi)
     return particles
