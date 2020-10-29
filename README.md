@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 Please review [requirements.txt](https://github.com/arthur960304/particle-filter-slam/blob/master/requirements.txt)
 
-Plese download the data [here](https://drive.google.com/open?id=1PUzvEAHeKWmQZWc_OfblInhtIls8wK6b)
+Plese download the [data](https://drive.google.com/open?id=1PUzvEAHeKWmQZWc_OfblInhtIls8wK6b)
 
 ## Code organization
 
