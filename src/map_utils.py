@@ -67,7 +67,7 @@ def measurement_model_update(MAP, P, data, angles):
         measurement model update
         
         Input:
-            MAP    - 
+            MAP    - map object
             P      - list of particle states
             data   - current scan data
             angles - lidar scan angles (from -135 ~ 135 degree)
